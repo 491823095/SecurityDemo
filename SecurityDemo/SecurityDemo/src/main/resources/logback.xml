@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--scan为true是设置日志配置的热更新 -->
+<configuration scan="true" scanPeriod="60 seconds">
+
+    <!--把日志输出在控制台上-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!--日期 进程 占位符 日志名称-->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--暂时用不上-->
+<!--    &lt;!&ndash;配置日志文件存放的位置以及压缩&ndash;&gt;
+    <appender name="permission" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${catalina.home}/logs/permission.log</file>
+        &lt;!&ndash;压缩后日志文件的名称&ndash;&gt;
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${catalina.home}/logs/permission.%d{yyyy-MM-dd}.log.zip</FileNamePattern>
+        </rollingPolicy>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger - %msg%n</Pattern>
+        </layout>
+    </appender>
+
+
+    <logger name="xxx" level="INFO">
+        <appender-ref ref="permission"/>
+    </logger>-->
+
+
+    <!--root标签唯一-->
+    <!-- 顺序是 TRACE < DEBUG < INFO < WARN < ERROR -->
+    <!--记录等级为INFO的日志-->
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

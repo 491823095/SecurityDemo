@@ -1,0 +1,11 @@
+INSERT INTO `sys_acl_module` VALUES (2, '产品管理', 0, '0', 1, 1, 'ddd', 'Admin', '2019-02-20 16:16:53', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl_module` VALUES (3, '订单管理', 0, '0', 2, 1, '', 'Admin', '2019-02-20 15:43:12', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl_module` VALUES (4, '公告管理', 0, '0', 3, 1, '', 'Admin', '2019-02-20 15:43:21', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl_module` VALUES (5, '出售中产品管理', 2, '0.2', 1, 1, '', 'Admin', '2019-02-20 16:17:06', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl_module` VALUES (6, '下架产品管理', 2, '0.2', 2, 1, '', 'Admin', '2019-02-20 15:44:20', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl_module` VALUES (7, '权限管理', 0, '0', 4, 1, '', 'Admin', '2019-02-22 20:51:05', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl_module` VALUES (8, '权限管理', 7, '0.7', 1, 1, '', 'Admin', '2019-02-22 20:51:27', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl_module` VALUES (9, '角色管理', 7, '0.7', 2, 1, '', 'Admin', '2019-02-22 20:51:43', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl_module` VALUES (10, '用户管理', 7, '0.7', 3, 1, '', 'Admin', '2019-02-22 20:51:58', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl_module` VALUES (11, '运维管理', 0, '0', 6, 1, '', 'Admin', '2019-03-01 16:59:14', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl_module` VALUES (12, '权限更新记录管理', 7, '0.7', 4, 1, '', 'Admin', '2019-03-01 16:59:51', '0:0:0:0:0:0:0:1');

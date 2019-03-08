@@ -1,0 +1,10 @@
+INSERT INTO `sys_acl` VALUES (1, '20190220192143_84', '进入产品管理界面', 2, '/sys/product/product.page', 1, 1, 1, '', 'Admin', '2019-02-20 19:21:43', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl` VALUES (2, '20190220192217_56', '查询产品列表', 2, '/sys/product/page.json', 2, 1, 2, '', 'Admin', '2019-02-20 19:22:17', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl` VALUES (3, '20190220192256_58', '产品上架', 2, '/sys/product/online.json', 2, 1, 3, '', 'Admin', '2019-02-20 19:22:56', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl` VALUES (4, '20190220194140_93', '产品下架', 2, '/sys/product/offine.json', 1, 1, 4, '', 'Admin', '2019-02-20 19:41:40', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl` VALUES (5, '20190222204928_97', '进入订单页', 3, '/sys/order/order.page', 1, 1, 1, '', 'Admin', '2019-02-22 20:49:28', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl` VALUES (6, '20190222205016_49', '查询订单列表', 3, '/sys/order/list.json', 2, 1, 2, '', 'Admin', '2019-02-22 20:50:16', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl` VALUES (7, '20190222205253_53', '进入权限管理页', 8, '/sys/aclModule/acl.page', 1, 1, 1, '', 'Admin', '2019-02-22 20:52:53', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl` VALUES (8, '20190227172828_13', '进入角色管理页', 9, '/sys/role/role.page', 1, 1, 1, '', 'Admin', '2019-02-27 17:28:28', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl` VALUES (9, '20190222205400_42', '进入用户管理页', 10, '/sys/dept/dept.page', 1, 1, 1, '', 'Admin', '2019-02-22 20:54:00', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_acl` VALUES (10, '20190301170034_41', '进入权限更新记录页面', 12, '/sys/log/log.page', 1, 1, 1, '', 'Admin', '2019-03-01 17:00:34', '0:0:0:0:0:0:0:1');
